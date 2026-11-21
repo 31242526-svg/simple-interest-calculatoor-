@@ -1,0 +1,13 @@
+The repository currently has no pull requests, and it is not itself a fork. Therefore, there is no pull request here whose source fork can be shown.
+
+```sh
+$ curl -sS "https://api.github.com/repos/31242526-svg/simple-interest-calculatoor-/pulls?state=all" | jq
+[]
+
+$ curl -sS "https://api.github.com/repos/31242526-svg/simple-interest-calculatoor-" | jq '{full_name, fork, parent}'
+{
+  "full_name": "31242526-svg/simple-interest-calculatoor-",
+  "fork": false,
+  "parent": null
+}
+```
