@@ -1,0 +1,15 @@
+The repository is not currently a fork of ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub. The GitHub API reports `fork: false` and no `parent`, so this output does not claim otherwise.
+
+Command:
+```sh
+curl -sS https://api.github.com/repos/31242526-svg/simple-interest-calculatoor- | jq '{full_name, fork, parent}'
+```
+
+Terminal output:
+```json
+{
+  "full_name": "31242526-svg/simple-interest-calculatoor-",
+  "fork": false,
+  "parent": null
+}
+```
